@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math with Image</title>
+    <style>
+        #result {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: blue;
+        }
+        img {
+            cursor: pointer;
+            width: 300px; /* Adjust the size of the image */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Click the Image for a Math Operation!</h1>
+<img src="https://placekitten.com/300/200" alt="matematyka dzialanie" id="mathImage" />
+
+<div id="result"></div>
+
+<script>
+    // Function to perform a simple math operation
+    function performMathOperation() {
+        const num1 = 10;
+        const num2 = 5;
+        
+        // Change this operation as needed
+        const sum = num1 + num2; // Example: Addition
+        const message = `dodanie liczby ${num1} i ${num2} to ${sum}.`;
+        
+        // Display the result
+        document.getElementById("result").innerText = message;
+    }
+
+    // Add click event to the image
+    document.getElementById("mathImage").addEventListener("click", performMathOperation);
+</script>
+
+</body>
+</html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Pasja - Matematyka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FDFBD4;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        p {
+            line-height: 1.5;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Moja Pasja - Matematyka</h1>
+
+    <h2>Wprowadzenie</h2>
+    <p>Cześć wszystkim! Dzisiaj chciałbym podzielić się z wami moim ulubionym przedmiotem - matematyką. Jest to dla mnie nie tylko przedmiot, ale także pasja i sposób myślenia.</p>
+
+    <h2>Dlaczego matematyka?</h2>
+    <ul>
+        <li>Matematyka otacza nas na co dzień.</li>
+        <li>Pomaga w logicznym myśleniu i rozwiązywaniu problemów.</li>
+        <li>Jest podstawą wielu innych nauk.</li>
+    </ul>
+
+    <h2>Moje ulubione tematy</h2>
+    <ul>
+        <li><strong>Algebra:</strong> Uwielbiam rozwiązywać równania! To jak łamigłówka.</li>
+        <li><strong>Geometria:</strong> Ciekawe jest, jak możemy obliczać pola i objętości.</li>
+        <li><strong>Statystyka:</strong> Łączenie danych i interpretacja wyników.</li>
+    </ul>
+
+    <h2>Przykład zastosowania matematyki</h2>
+    <p>Niedawno miałem projekt, w którym musiałem obliczyć, ile materiału potrzebuję do budowy prostokątnej skrzynki. Dzięki matematyce mogłem łatwo i precyzyjnie to obliczyć.</p>
+
+    <h2>Wnioski</h2>
+    <p>Matematyka uczy mnie logicznego myślenia i cierpliwości. Każdy problem, który rozwiązuję, daje mi ogromną satysfakcję.</p>
+
+    <h2>Zakończenie</h2>
+    <p>Mam nadzieję, że tak jak ja, doceniacie matematykę! Dziękuję za uwagę!</p>
+
+</body>
+</html>
+  <table border="1">
+    <tr>
+        <th>×</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>4</td>
+        <td>6</td>
+        <td>8</td>
+        <td>10</td>
+        <td>12</td>
+        <td>14</td>
+        <td>16</td>
+        <td>18</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+        <td>12</td>
+        <td>15</td>
+        <td>18</td>
+        <td>21</td>
+        <td>24</td>
+        <td>27</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+        <td>16</td>
+        <td>20</td>
+        <td>24</td>
+        <td>28</td>
+        <td>32</td>
+        <td>36</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>5</td>
+        <td>10</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+        <td>30</td>
+        <td>35</td>
+        <td>40</td>
+        <td>45</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>6</td>
+        <td>12</td>
+        <td>18</td>
+        <td>24</td>
+        <td>30</td>
+        <td>36</td>
+        <td>42</td>
+        <td>48</td>
+        <td>54</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>7</td>
+        <td>14</td>
+        <td>21</td>
+        <td>28</td>
+        <td>35</td>
+        <td>42</td>
+        <td>49</td>
+        <td>56</td>
+        <td>63</td>
+        <td>70</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>8</td>
+        <td>16</td>
+        <td>24</td>
+        <td>32</td>
+        <td>40</td>
+        <td>48</td>
+        <td>56</td>
+        <td>64</td>
+        <td>72</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>27</td>
+        <td>36</td>
+        <td>45</td>
+        <td>54</td>
+        <td>63</td>
+        <td>72</td>
+        <td>81</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+        <td>40</td>
+        <td>50</td>
+        <td>60</td>
+        <td>70</td>
+        <td>80</td>
+        <td>90</td>
+        <td>100</td>
+    </tr>
+</table>
